@@ -1,10 +1,9 @@
 {
     "mcpServers": {
         "laravel-boost": {
-            "command": "wsl.exe",
+            "command": "/usr/bin/php8.5",
             "args": [
-                "/usr/bin/php8.5",
-                "/home/iyasmzn/projects/laravel-filament/artisan",
+                "/home/iyasmzn/projects/filament-boilerplate/artisan",
                 "boost:mcp"
             ]
         }
